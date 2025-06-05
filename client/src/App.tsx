@@ -102,7 +102,6 @@ export default class App extends Component<{}, typeAppState> {
       );
 
       if (res.ok) {
-        console.log("✅ Ответ от сервера OK — вызываем loadFavoritesFromServer()");
         await this.loadFavoritesFromServer();
       } else {
         const err = await res.json();
@@ -126,7 +125,6 @@ export default class App extends Component<{}, typeAppState> {
 
       if (res.ok) {
         const favorites = await res.json();
-        console.log("📦 Загруженные избранные фильмы:", favorites);
         this.setState({ favorites });
       }
     } catch (err) {
