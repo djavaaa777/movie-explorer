@@ -19,7 +19,7 @@ const JWT_SECRET = process.env.JWT_SECRET;
 
 // Middlewares
 app.use(cors({
-  origin: "https://movie-explorer-liard.vercel.app",
+  origin: "https://movie-explorer-gm4tv4c3n-javids-projects-b224f5dc.vercel.app",
   credentials: true
 }));
 app.use(cors());
