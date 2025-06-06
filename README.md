@@ -68,7 +68,7 @@ npm start
 
 ## Demo
 
-🌐 Live App: [movie-explorer-liard.vercel.app](https://movie-explorer-liard.vercel.app)
+🌐 Live App: [movie-explorer-liard.vercel.app](https://movie-explorer-gm4tv4c3n-javids-projects-b224f5dc.vercel.app)
 
 ## Author
 
