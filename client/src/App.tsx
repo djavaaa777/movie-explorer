@@ -96,8 +96,8 @@ export default class App extends Component<{}, typeAppState> {
 
       const res = await fetch(
         isInFavorites
-          ? `http://localhost:5000/api/favorites/${movie.id}`
-          : `http://localhost:5000/api/favorites`,
+          ? `${process.env.REACT_APP_API_URL}/favorites/${movie.id}`
+          : `${process.env.REACT_APP_API_URL}/favorites`,
         options
       );
 
@@ -117,7 +117,7 @@ export default class App extends Component<{}, typeAppState> {
     if (!token) return;
 
     try {
-      const res = await fetch('http://localhost:5000/api/favorites', {
+      const res = await fetch(`${process.env.REACT_APP_API_URL}/favorites`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

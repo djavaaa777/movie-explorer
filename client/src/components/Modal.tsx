@@ -19,7 +19,6 @@ function Modal({ movie, onClose }: ModalProps) {
   const [trailerKey, setTrailerKey] = useState<string | null>(null);
 
   useEffect(() => {
-    console.log(movie.id)
     fetch(`https://api.themoviedb.org/3/movie/${movie.id}/videos?api_key=f86b3196ea6e3a888d8bc6f3a50575ef`)
       .then(res => res.json())
       .then(data => {
