@@ -63,7 +63,6 @@ npm start
 
 ## Deployment
 
-- Backend: [Render](https://render.com/)
 - Frontend: [Vercel](https://vercel.com/)
 
 ## Demo
