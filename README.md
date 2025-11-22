@@ -67,7 +67,7 @@ npm start
 
 ## Demo
 
-🌐 Live App: [movie-explorer-liard.vercel.app](https://movie-explorer-gm4tv4c3n-javids-projects-b224f5dc.vercel.app)
+🌐 Mockup: <img width="1904" height="871" alt="image" src="https://github.com/user-attachments/assets/db642082-d211-45e1-af29-200f6698d925" />
 
 ## Author
 
@@ -75,3 +75,5 @@ npm start
 
 ---
 _This project is a portfolio-level fullstack app showcasing authentication, API integration, and deployment._
+
+
